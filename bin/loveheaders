@@ -1,0 +1,3 @@
+#!/usr/bin/env lua
+if arg[#arg] == "-debug" then require('mobdebug').start() end
+require 'loveheaders.main'()
