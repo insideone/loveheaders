@@ -23,6 +23,7 @@ dependencies = {
 build = {
     type = "builtin",
     modules = {
+        loveheaders = 'loveheaders.lua'
     },
     install = {
         bin = {"bin/loveheaders"}
